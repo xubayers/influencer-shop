@@ -1,0 +1,52 @@
+* {
+    color: #ffffffde;
+}
+body {
+    background-color: #222222;
+}
+:root {
+    --white: #fff;
+    --black: #fff;
+    --colle-para-color: #ffffff77;
+    --secondery-color: #e92323;
+}
+
+footer {
+    color: #fff;
+}
+.deActive {
+    color: var(--black);
+    font-weight: normal;
+}
+select {
+    color: var(--colle-para-color)
+}
+.popular-collection-items div {
+    box-shadow: 0 0 1rem #ffffff23;
+}
+h1, h2 {
+    color: #fff;
+}
+.sign-log-in-form {
+    box-shadow: 0 0 2px #ffffff6c;
+}
+.see-more  {
+    color: #e92323;
+}
+.sponsors .brands div {
+    filter: saturate(10);
+}
+input, select,option {
+    color: #000;
+}
+input,select {
+    background-color: transparent;
+    border: 1px solid #ffffff53;
+    color: #ffffffb7;
+}
+@media screen and (max-width: 576px) {
+    nav ul {
+        background-color: #3d3d3d;
+        box-shadow: 0 0 #565656;
+    }
+}

@@ -1,0 +1,161 @@
+@media screen and (max-width: 1200px) {
+    nav {
+        margin: 5rem 2rem;
+    }
+    main {
+        margin: auto 2rem;
+    }
+    .sponsors {
+        margin: 6rem 2rem;
+    }
+    .banner .content h1 {
+        font-size: 3.8rem;
+    }
+    .sponsors .brands {
+        gap: 4rem;
+    }
+    .sponsors .brands div {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+    .popular-collection-items {
+        margin: 0 2rem;
+        
+    }
+    .see-more {
+        margin: 3rem 2rem;
+    }
+    .featured-prod {
+        margin:  5rem  2rem 0 2rem;
+    }
+    .products {
+        margin: 0 2rem;
+    }
+    .sign-log-in-form {
+        padding: 4rem;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 992px) {
+    main .banner {
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+    .banner .content {
+        max-width: 70%;
+        text-align: center;
+    }
+    .sponsors .brands {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .popular-collection-items {
+        grid-template-columns: repeat(2, 1fr);   
+    }
+    .featured-prod {
+        flex-direction: column-reverse;
+        gap: 5rem;
+        & .content {
+            text-align: center;
+        }
+        & p {
+            max-width: 60%;
+            margin: 1.5rem auto;
+        }
+    }
+
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .sign-log-in-form {
+        padding: 4rem;
+        width: 85%;
+    }
+   
+}
+@media screen and (max-width: 576px) {
+    :root {
+        --font-lz2: 3rem;
+        --font-lz: 2.2rem;
+        --font-md: 1.3rem;
+        --font-sm: 1.1rem;
+    }
+    nav ul {
+       box-shadow: 2px 0 .5rem #cdcdcd;
+       position: fixed;
+       top: 0;
+       left: 0;
+       height: 100%;
+       z-index: 9999;
+       justify-content: center;
+       flex-direction: column;
+       padding: 10rem;
+       text-align: center;
+       background-color: #f4f4f4;
+       transform: translateX(-34rem);
+       transition: all .3s linear;
+       transition-delay: .1s;
+    }
+    nav {
+        flex-direction: row;
+    }
+    .modes {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .normal {
+        transform: translateX(-27rem);
+    }
+    .phone-menu {
+        transform: translateX(0);
+    }
+    .hide-menu {
+        display: none;
+        transition: all .5s linear;
+    }
+    .menu {
+        transition: all .5s linear;
+    }
+    .navs {
+        display: block;
+    }
+    main img {
+        width: 80%;
+    }
+    .sponsors img {
+        width: 100%;
+    }
+    .banner .content h1{
+        font-size: 3.3rem;
+    }
+    nav .nav-brand {
+        font-size: 1.4rem;
+    }
+    .banner .content {
+        max-width: 95%;
+    }
+    .popular-collection-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured-prod {
+        & h2 {
+            width: 90%;
+            margin: 0 auto;
+        }
+        & p {
+            max-width: 100%;
+        }
+    }
+    .sign-log-in-form {
+        padding: 2rem;
+        width: 95%;
+    }
+
+}

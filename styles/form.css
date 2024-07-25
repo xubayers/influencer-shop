@@ -1,0 +1,86 @@
+.sign-log-in-form {
+    width: 100rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    box-shadow: 0 0 2px #0000006c;
+    padding: 5rem 10rem;
+}
+.sign-log-in-form .form1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sign-log-in-form .form2 {
+    text-align: center;
+}
+.sign-log-in-form h2 {
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* width: 60%; */
+}
+.inputs input, select {
+    padding: .5rem 1rem;
+    outline: none;
+}
+.inputs input {
+    width: 100%;
+    margin-left: 1rem;
+    padding: 1rem 3rem;
+}
+.inputs label {
+    font-size: 1.6rem;
+    display: flex;
+    width: 100%;
+}
+.inputs input[type="submit"] {
+    border: none;
+    background-color: var(--secondery-color);
+    border-radius: .5rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    letter-spacing: .4px;
+    font-size: var(--font-md);
+}
+.sign-in {
+    display: none;
+}
+.log-in {
+    display: none;
+}
+.none {
+    display: none;
+}
+.inputs label:nth-child(1) span {
+    margin-right: 4rem;
+}
+.inputs label:nth-child(2) span {
+    margin-right: 4.2rem;
+}
+.inputs label:nth-child(3) span {
+    margin-right: 1.3rem;
+}
+.inputs label:nth-child(4) span {
+    margin-right: 4rem;
+}
+
+.form2 .inputs label:nth-child(2) span {
+    margin-right: 1.2rem;
+}
+/* peoduct section here */
+.products {
+    max-width: 115rem;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.562);
+    padding: 3rem;
+    display: none;
+}
